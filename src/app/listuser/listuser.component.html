@@ -1,0 +1,33 @@
+
+   <div class="container">
+    <h3>List User</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>No.of.books</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let a of ulist;let i=index">
+                <td>{{i+1}}</td>
+                <td>{{a.name}}</td>
+                <td>{{a.age}}</td>
+                <td>{{a.nobook}}</td>
+                <td>{{a.email}}</td>
+                <td>{{a.phone}}</td>
+                <td>
+                
+                    <span><input type="button" value="Edit" class=" btn btn-sm btn-warning" routerLink="/edit/{{a.id}}"></span>&nbsp;
+                    <span><input type="button" value="Delete" class=" btn btn-sm btn-danger"  (click)="del(a.id)"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+ 
+   </div>

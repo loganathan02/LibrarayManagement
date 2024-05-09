@@ -1,0 +1,36 @@
+{
+  "user": [
+    {
+      "id": "cd8d",
+      "name": "logu",
+      "email": "logu@gmail.outlook",
+      "phone": "9080766754",
+      "age": "22",
+      "nobook": "2"
+    },
+    {
+      "id": "8dab",
+      "name": "yuvaraj",
+      "email": "yuvaeaj ",
+      "phone": "987654321",
+      "age": "23",
+      "nobook": "87"
+    },
+    {
+      "id": "5d16",
+      "name": "john",
+      "email": "john@gmail.com",
+      "phone": "9878986543",
+      "age": "23",
+      "nobook": "3"
+    },
+    {
+      "id": "8175",
+      "name": "Hari",
+      "email": "",
+      "phone": "87",
+      "age": "43",
+      "nobook": "6"
+    }
+  ]
+}

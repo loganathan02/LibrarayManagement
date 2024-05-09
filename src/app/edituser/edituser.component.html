@@ -1,0 +1,33 @@
+<div class="container border" style="max-width: 400px">
+    <form (ngSubmit)="update(ed.id,ed)">
+        <div>
+            <label>Name</label>
+            <input type="text" class="form-control" name="user" [(ngModel)]="ed.name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" class="form-control" name="mail" [(ngModel)]="ed.email">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" class="form-control" name="phno" [(ngModel)]="ed.phone">
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="text" class="form-control"  name="age" [(ngModel)]="ed.age">
+        </div>
+        <div>
+            <label>No.of.Books</label>
+            <input type="text" class="form-control" name="no" [(ngModel)]="ed.nobook" >
+        </div>
+       
+        <p class="sub">
+            <input type="submit" value="Submit" class="btn btn-primary" >&nbsp;
+            <input type="button" value="back" class="btn btn-dark" routerLink="/list">
+        </p>
+    </form>
+<div id="res">
+    <h4>{{res}}</h4>
+    </div>
+
+</div>

@@ -1,0 +1,29 @@
+<div class="container border" style="max-width: 400px">
+    <form (ngSubmit)="addpro()">
+        <div>
+            <label>Name</label>
+            <input type="text" class="form-control" [(ngModel)]="user.name" name="user">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" class="form-control" [(ngModel)]="user.email" name="mail">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" class="form-control" [(ngModel)]="user.phone" name="phn">
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="text" class="form-control" [(ngModel)]="user.age" name="ag">
+        </div>
+        <div>
+            <label>No.of.Books</label>
+            <input type="text" class="form-control" [(ngModel)]="user.nobook" name="no">
+        </div>
+        <p class="sub">
+            <input type="submit" value="Submit" class="btn btn-primary" >&nbsp;
+            <input type="reset" value="Reset" class="btn btn-danger">
+        </p>
+    </form>
+
+</div>
